@@ -94,9 +94,9 @@ class TitleState extends MusicBeatState
 
 		Highscore.load();
 
-		if (FileSystem.isDirectory(Sys.getEnv("AppData") + "/shadowmario/FunkinAtFreddys")) {
+		/*if (FileSystem.isDirectory(Sys.getEnv("AppData") + "/shadowmario/FunkinAtFreddys")) {
 			funkinatfreddysExist = true; //checks if u played tghe mod before
-		}
+		}*/
 
 		if(!initialized)
 		{
