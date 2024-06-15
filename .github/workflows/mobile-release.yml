@@ -30,9 +30,7 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true
           yes | haxelib set openfl 9.3.0
-          haxelib remove linc_luajit
-          haxelib git linc_luajit https://github.com/superpowers04/linc_luajit
-
+          
       - name: Compile
         run: haxelib run lime build android -D officialBuild -final
 
