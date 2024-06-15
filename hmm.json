@@ -32,8 +32,9 @@
     },
     {
       "name": "hxcpp",
-      "type": "haxelib",
-      "version": null
+      "type": "git",
+      "ref": "master",
+      "url": "https://github.com/mcagabe19-stuff/hxcpp.git"
     },
     {
       "name": "tjson",
