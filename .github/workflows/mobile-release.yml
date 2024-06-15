@@ -30,6 +30,7 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true
           yes | haxelib set openfl 9.3.0
+          haxelib remove hxcpp
           
           
       - name: Compile
